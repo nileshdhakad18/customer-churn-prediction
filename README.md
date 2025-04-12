@@ -18,7 +18,7 @@ A machine learning system that predicts customer churn probability and identifie
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nileshkshada18/customer-churn-prediction.git
+   git clone https://github.com/nileshdhakad18/customer-churn-prediction.git
    cd customer-churn-prediction
    ```
 
