@@ -1,3 +1,5 @@
+
+```markdown
 # Customer Churn Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -21,5 +23,88 @@ A machine learning web application that predicts the likelihood of customer chur
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[your-username]/customer-churn-prediction.git
+   git clone https://github.com/nileshdhakad18/customer-churn-prediction.git
    cd customer-churn-prediction
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## 🧪 Usage
+
+1. **Launch the Streamlit app**
+   ```bash
+   streamlit run app.py
+   ```
+
+2. **Use the sidebar** to enter customer details.
+3. **Review the results**: Churn probability, top risk factors, and suggested actions.
+
+---
+
+## 📁 Project Structure
+
+```
+├── app.py                # Main application code
+├── churn_model.pkl       # Trained logistic regression model
+├── requirements.txt      # Required Python libraries
+├── README.md             # Project documentation
+└── data/                 # Sample datasets (optional)
+```
+
+---
+
+## 🧠 Model Overview
+
+- **Algorithm**: Logistic Regression  
+- **Input Features** (30+):  
+  - Tenure  
+  - Contract Type  
+  - Monthly Charges  
+  - Service Subscriptions  
+  - …and more  
+
+- **Performance Metrics**:
+  - ✅ Accuracy: 82%  
+  - 🎯 Precision: 78%  
+  - 🔁 Recall: 85%  
+  - 📈 AUC-ROC: 0.88  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here’s how to get started:
+
+1. Fork the repository  
+2. Create a new branch:  
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Commit your changes:  
+   ```bash
+   git commit -m "Add Your Feature"
+   ```
+4. Push the branch:  
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the [MIT License](LICENSE).  
+Feel free to use, modify, and distribute the code.
+
+---
+
+> ✨ Built with 💙 using Python, Scikit-learn, and Streamlit.
+```
+
+---
